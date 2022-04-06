@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
-import Sidebar from '../Sidebar';
 import {HeroContainer, 
 HeroItems, 
 HeroH1, 
@@ -8,7 +6,6 @@ HeroP,
 HeroBtn, 
 HeroContent
 } from './HeroElements';
-import { Route } from 'react-router';
 
 
 

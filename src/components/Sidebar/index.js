@@ -10,8 +10,6 @@ import {
 } from './SidebarElements';
 
 
-var links=['','carta','imagenes'];
-var LinksDesc=['Inicio','Nuestra Carta','Imagenes del restaurante']
 
 
 const Sidebar = ({ isOpen, toggle }) => {
