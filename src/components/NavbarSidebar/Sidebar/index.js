@@ -12,10 +12,11 @@ import {
 
 
 
-const Sidebar = ({ isOpen, toggle }) => {
+const Sidebar = ({isOpen, toggleOpen}) => {
+
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle}>
-      <Icon onClick={toggle}>
+    <SidebarContainer isOpen={isOpen} onClick={toggleOpen}>
+      <Icon onClick={toggleOpen}>
         <CloseIcon />
       </Icon>
       <SidebarMenu id="SidebarMenu">

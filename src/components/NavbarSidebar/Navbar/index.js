@@ -1,16 +1,16 @@
 import React from 'react'
-import {Nav, NavIcon, NavLink, Bars} from './NavbarElements'
+import {NavIcon, NavLink, Bars, NavContainer} from './NavbarElements'
 
-export const Navbar = ({toggle}) => {
+export const Navbar = ({toggleOpen}) => {
   return (
     
-        <Nav>
+        <NavContainer>
             <NavLink  to="/">La Casería de Santa Marina</NavLink>
-            <NavIcon onClick={toggle}>
+            <NavIcon onClick={toggleOpen} >
                 <p>Menu</p>
                 <Bars/>
             </NavIcon>
-        </Nav>
+        </NavContainer>
     
   )
 }
