@@ -1,7 +1,8 @@
 {
   "name": "la-caseria-de-santa-marina-v1",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/lacaseriadesantamarina/react-web",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.0",
@@ -18,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build", 
     "build": "react-scripts build start ",
     "test": "react-scripts test  start",
     "eject": "react-scripts start"
