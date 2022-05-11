@@ -1,7 +1,7 @@
 {
   "name": "la-caseria-de-santa-marina-v1",
   "version": "0.1.0",
-  "homepage": "https://github.com/lacaseriadesantamarina/react-web",
+  "homepage": "https://lacaseriadesantamarina.github.io/react-web/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
