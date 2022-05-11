@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/react-web/static/js/main.45e0c96f.js",
+    "main.js": "/react-web/static/js/main.b9238b53.js",
     "static/js/787.3a694300.chunk.js": "/react-web/static/js/787.3a694300.chunk.js",
     "static/media/cartamini.jpg": "/react-web/static/media/cartamini.b90b868efe6aa7931906.jpg",
     "static/media/fondocarta2.jpg": "/react-web/static/media/fondocarta2.d351c86d9a871e6d7c51.jpg",
     "static/media/fondo1.jpg": "/react-web/static/media/fondo1.a8f4e367e2319d137617.jpg",
     "index.html": "/react-web/index.html",
-    "main.45e0c96f.js.map": "/react-web/static/js/main.45e0c96f.js.map",
+    "main.b9238b53.js.map": "/react-web/static/js/main.b9238b53.js.map",
     "787.3a694300.chunk.js.map": "/react-web/static/js/787.3a694300.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.45e0c96f.js"
+    "static/js/main.b9238b53.js"
   ]
 }
