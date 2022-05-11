@@ -14,7 +14,7 @@ function App() {
         <GlobalStyle/>
           <Routes>
             <Route path="*" element={<NotFoundPage />}/>
-            <Route exact path='/' element={<MainPage />}/>
+            <Route exact path='/react-web/' element={<MainPage />}/>
             <Route exact path='/carta' element={<CartaPage />}/>
             <Route exact path='/reservar' element={<ReservarPage />}/> 
           </Routes>
