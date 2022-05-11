@@ -10,6 +10,7 @@ export const HeroContainer = styled.div`
     background-width: 100%;
     background-position: center;
     background-size: cover;
+    max-width: 100vw;
 `;
 
 export const HeroContent = styled.div`

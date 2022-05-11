@@ -11,30 +11,55 @@ export const NotFoundContainer = styled.div`
 `;
 
 export const NotFoundText = styled.div`
-      display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    max-height: 100%;
-    padding: 0 2rem;
+    max-height: 80%;
     width: 650px;
     color: #fff;
     text-transform: uppercase;
     line-height: 1;
     font-weight: bold;
-
-    size: 50px;
+    text-align: center;
     justify-content: center;
     color: #fff;
-    .h1{
-        font-size: clamp(2rem, 6vw, 5rem);
-        margin-bottom: 1rem;
-        box-shadow: 3px 5px #00622f;
+    padding-top: 20vh;
+    
+
+    h2,h1,p{
+        padding: 0 50% 0 50%;
         letter-spacing: 3px;
-        text-align:
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        
     }
-        @media screen and (max-width: 650px) {
+    h2{
+        font-size: 4rem;
+    }
+    h1{
+        font-size: 20rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+
+
+    
+    @media screen and (max-width:950px) {
     width: 100%;
+    margin-left:  -30vw;
+     h2{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 10rem;
+    }
+    p {
+        font-size: 1rem;
+    }
     }
 `;
