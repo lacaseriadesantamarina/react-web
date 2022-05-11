@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import { GlobalStyle } from "./globalStyles";
 import CartaPage from "./pages/CartaPage";
 import MainPage from './pages/MainPage';
@@ -14,7 +14,7 @@ function App() {
         <GlobalStyle/>
           <Routes>
             <Route path="*" element={<NotFoundPage />}/>
-            <Route exact path='/react-web/' element={<MainPage />}/>
+            <Route exact path='/' element={<MainPage />}/>
             <Route exact path='/carta' element={<CartaPage />}/>
             <Route exact path='/reservar' element={<ReservarPage />}/> 
           </Routes>
