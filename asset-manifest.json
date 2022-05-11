@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/lacaseriadesantamarina/react-web/static/js/main.0ab92307.js",
+    "main.js": "/lacaseriadesantamarina/react-web/static/js/main.d4c86c65.js",
     "static/js/787.3a694300.chunk.js": "/lacaseriadesantamarina/react-web/static/js/787.3a694300.chunk.js",
     "static/media/cartamini.jpg": "/lacaseriadesantamarina/react-web/static/media/cartamini.b90b868efe6aa7931906.jpg",
     "static/media/fondocarta2.jpg": "/lacaseriadesantamarina/react-web/static/media/fondocarta2.d351c86d9a871e6d7c51.jpg",
     "static/media/fondo1.jpg": "/lacaseriadesantamarina/react-web/static/media/fondo1.a8f4e367e2319d137617.jpg",
     "index.html": "/lacaseriadesantamarina/react-web/index.html",
-    "main.0ab92307.js.map": "/lacaseriadesantamarina/react-web/static/js/main.0ab92307.js.map",
+    "main.d4c86c65.js.map": "/lacaseriadesantamarina/react-web/static/js/main.d4c86c65.js.map",
     "787.3a694300.chunk.js.map": "/lacaseriadesantamarina/react-web/static/js/787.3a694300.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0ab92307.js"
+    "static/js/main.d4c86c65.js"
   ]
 }
